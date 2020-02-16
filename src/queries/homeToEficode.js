@@ -5,7 +5,7 @@ const homeToEficode = gql`
         Metros: plan(
             from: { lat: 60.159581, lon: 24.858888 }
             to: { lat: 60.169407, lon: 24.925844 }
-            numItineraries: 3
+            numItineraries: 1
             transportModes: [{ mode: WALK }, { mode: SUBWAY }]
         ) {
             itineraries {
@@ -19,7 +19,7 @@ const homeToEficode = gql`
         Busses: plan(
             from: { lat: 60.159581, lon: 24.858888 }
             to: { lat: 60.169407, lon: 24.925844 }
-            numItineraries: 3
+            numItineraries: 1
             transportModes: [{ mode: WALK }, { mode: BUS }]
         ) {
             itineraries {
