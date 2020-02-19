@@ -3,7 +3,7 @@ import Metro from './Metro'
 
 const Metros = ({ metros }) => {
     return (
-        <div>
+        <div className='uk-animation-slide-bottom-small'>
             {metros.itineraries.map(p => (
                 <Metro key={p.startTime} metro={p} />
             ))}
