@@ -6,7 +6,7 @@ This dashboard app displays timetables from my home to Eficode headquarters. It 
 
 There is an instance of the dashboard running in Heroku :
 
-[Timetable dashboard]( https://dashboard.heroku.com/apps/timetables-to-eficode)
+[Timetable dashboard]( https://timetables-to-eficode.herokuapp.com/)
 
 The dashboard is deployed as a Docker image with the Heroku Container Registry 
 
