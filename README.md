@@ -1,8 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Timetable dashboard
 
-## Available Scripts
-
-In the project directory, you can run:
+The dashboard gives the next public transports from my home to Eficode headquarters 
 
 ### `npm start`
 
