@@ -1,4 +1,4 @@
-## To Eficode timetable dashboard
+## Eficode timetable dashboard
 
 This dashboard app displays timetables from my home to Eficode headquarters. It shows the leave, arrival and duration times for the next metro and bus. It also displays how long it would take to go with bicycle as that is the method of transportation I mainly use. The app updates the timetable every minute. 
 
