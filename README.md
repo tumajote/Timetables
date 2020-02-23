@@ -1,14 +1,14 @@
-## Eficode timetable dashboard
+## Eficode timetable info screen
 
-This dashboard app displays timetables from my home to Eficode headquarters. It shows the leave, arrival and duration times for the next metro and bus. It also displays how long it would take to go with bicycle as that is the method of transportation I mainly use. The app updates the timetable every minute. 
+This app displays timetables from my home to Eficode headquarters. It shows the time I should leave to arrive at the time given in the same column. I decided to show only the next departures for each mode of transportation as a design choice. I would use such an info board more as a reminder tool than for planning for future. Consequently, I decided to have a view where you can quickly see the next departures and arrival times with a glance. The info screen gives the actual arrival, departure and duration of the trip including the walking time. I decided to have own columns for metro and bus because metro is always the fastest method of transportation but the bus stop is closer so there is less walking. The app also displays how long it would take to go with a bicycle as that is the method of transportation I mainly use. The app updates the timetable every minute. 
 
 ### Web version 
 
-There is an instance of the dashboard running in Heroku :
+There is an instance of the info screen running in Heroku :
 
-[Timetable dashboard]( https://timetables-to-eficode.herokuapp.com/)
+[Timetable info screen]( https://dashboard.heroku.com/apps/timetables-to-eficode)
 
-The dashboard is deployed as a Docker image with the Heroku Container Registry 
+The info screen is deployed as a Docker image with the Heroku Container Registry 
 
 ### Local deployment with Docker
 
@@ -24,6 +24,9 @@ If you wish to change the port the app is running in change the first parameter 
 ``` docker run -p 3001:3000 timetableapp``` runs the app in the port 3001 
 
 
+### Commit history
+
+Unfortunately I messed up the original repo and had to migrate to a new one. Consequently, the commit history does not reflect the actual progression of this project.
 
 
  
