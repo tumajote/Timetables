@@ -6,7 +6,7 @@ This app displays timetables from my home to Eficode headquarters. It shows the 
 
 There is an instance of the info screen running in Heroku :
 
-[Timetable info screen]( https://dashboard.heroku.com/apps/timetables-to-eficode)
+[Timetable info screen]( https://timetables-to-eficode.herokuapp.com/)
 
 The info screen is deployed as a Docker image with the Heroku Container Registry 
 
